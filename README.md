@@ -12,18 +12,18 @@ In this project, our design team has already built an HTML/CSS web page for us, 
 
 **Follow these steps to set up and work on your project:**
 
-* [ ] Create a forked copy of this project.
-* [ ] Add your project manager as collaborator on Github.
-* [ ] Clone your OWN version of the repository (Not Lambda's by mistake!).
-* [ ] Create a new branch: git checkout -b `<firstName-lastName>`.
-* [ ] Implement the project on your newly created `<firstName-lastName>` branch, committing changes regularly.
-* [ ] Push commits: git push origin `<firstName-lastName>`.
+* [z ] Create a forked copy of this project.
+* [z ] Add your project manager as collaborator on Github.
+* [z ] Clone your OWN version of the repository (Not Lambda's by mistake!).
+* [ z] Create a new branch: git checkout -b `<firstName-lastName>`.
+* [ z] Implement the project on your newly created `<firstName-lastName>` branch, committing changes regularly.
+* [x ] Push commits: git push origin `<firstName-lastName>`.
 
 **Follow these steps for completing your project.**
 
-* [ ] Submit a Pull-Request to merge <firstName-lastName> Branch into master (student's  Repo). **Please don't merge your own pull request**
-* [ ] Add your project manager as a reviewer on the pull-request
-* [ ] Your project manager will count the project as complete by merging the branch back into master.
+* [ x] Submit a Pull-Request to merge <firstName-lastName> Branch into master (student's  Repo). **Please don't merge your own pull request**
+* [x ] Add your project manager as a reviewer on the pull-request
+* [x ] Your project manager will count the project as complete by merging the branch back into master.
 
 ## Description
 
@@ -38,7 +38,7 @@ In this project, our design team has already built an HTML/CSS web page for us, 
 
 * Now that we have an idea of how to create a component with a single class, we will be creating a complex component made up of itself and a sub component. The greater component wrapper will be called `TabLink` and the smaller component it will create will be called `TabItem`.
   * The `TabLink` component will be the overall wrapper of the sub component. This higher level component will find and create the sub component within it. This component will be on each of what we may consider the `tabs` on top of the box. These links will control the associated item, as well as selecting and deselecting themselves.
-  * The `TabItem` component will be the text displayed when a tab is selected. It will share a data attribute with it's corresponding tab, and should only show when it's tab has been selected.
+  * The `TabItem` component will be the text displayed when a tab is selected. It will share a data attribute with its corresponding tab, and should only show when it's tab has been selected.
 
 * The `Tabs.js` file starts at the bottom of the page and then jumps around. Pay attention to what is being called and when. Study the corresponding HTML and LESS to get a better idea of how the tabs were built.
 
